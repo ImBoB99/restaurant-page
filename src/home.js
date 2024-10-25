@@ -2,6 +2,7 @@ import homeImage from "./images/home.jpg";
 
 function initialLoad() {
     const content = document.querySelector("#content");
+    content.innerHTML = ""
 
     const h1 = document.createElement("h1")
     const p = document.createElement("p")
